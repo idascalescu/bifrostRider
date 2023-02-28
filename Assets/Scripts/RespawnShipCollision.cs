@@ -10,7 +10,7 @@ public class RespawnShipCollision : MonoBehaviour
     Transform RespawnPoint;
 
     private void OnCollisionEnter(Collision collision)//when the ship will collide with any object where this script is attached
-        //the ship will be respawn back to the start point
+        //the ship will respawn back to the start point
     {
         Ship.transform.position = RespawnPoint.transform.position;
     }
